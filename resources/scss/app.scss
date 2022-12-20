@@ -1,0 +1,82 @@
+@import '~bootstrap/scss/bootstrap';
+.tabellone_orari{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+}
+.in_orario{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.in_ritardo {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.orari{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tabellone_row {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+        .left {
+            flex-basis: 40%;
+            flex-grow: 0;
+        }
+
+        .center {
+            flex-basis: 30%;
+        }
+
+        .right {
+            flex-shrink: 30%;
+        }
+.top{
+    padding-bottom: 4rem;
+}
+.train{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+    background-color: antiquewhite;
+img{
+    width: 100%;
+}
+}
+.sinistra{
+    flex-basis: 33%;
+    flex-grow: 0;
+}
+.centro{
+    flex-basis: 33%;
+        flex-grow: 0;
+        padding-left: 2rem;
+        p{
+            padding: 0.5rem;
+        }
+        .strong{
+            font-weight: bold;
+        }
+}
+.destra{
+    flex-basis: 33%;
+        flex-grow: 0;
+        text-align: right;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+}
+h1{
+    padding-bottom: 4rem;
+}
